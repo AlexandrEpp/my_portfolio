@@ -305,10 +305,7 @@ media
         padding-bottom: 60px;
     }
     .container1{
-
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
+        width: 100%;
         margin-top: 300px;
     }
 
