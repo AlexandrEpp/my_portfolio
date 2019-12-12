@@ -72,10 +72,14 @@ html, body{
     margin-bottom: 30px;
     font-family: 'Merriweather', serif;
     margin-top: -80px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(0,0,0,0.6);
 }
 .header__slogan{
-    font-size:28px;
+    font-size:30px;
     line-height: 42px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0,0,0,1);
 }
 .header__arrow{
     font-size: 48px;
@@ -185,8 +189,8 @@ Portfolio single page
 footer
 ------------------------------------------*/
 .footer{
-    background-color:#061634;
-    color:#6479a2;
+    background-color:#8e8d8b;
+    color:black;
     padding-top:90px;
     padding-bottom: 190px;
 
@@ -200,6 +204,7 @@ p.footer__name{
     margin-bottom: 10px;
     line-height: normal;
     font-family: 'Merriweather', serif;
+
 }
 p.footer__social{
     color:#fff;
@@ -220,7 +225,7 @@ p.footer__social-icons a:last-child{
     margin-right: 0px;
 }
 p.footer__social-icons a:hover{
-    color:#FFE400;
+    color:black;
 
 }
 .button {
@@ -228,12 +233,12 @@ p.footer__social-icons a:hover{
     display: inline-block;
 
     border-width: 2px;
-    border-color: #fff;
+    border-color: black;
     border-style: solid;
     border-radius: 50px;
 
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 1.6px;
     padding-top: 8px;
@@ -246,8 +251,9 @@ p.footer__social-icons a:hover{
 
 }
 .button:hover{
-    color:#861634;
-    background-color: white;
+    border-color:white;
+    color:white;
+    background-color: #8e8d8b;
 }
 
 a {
